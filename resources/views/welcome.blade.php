@@ -15,8 +15,8 @@
                 padding: 0;
                 width: 100%;
                 display: table;
-                font-weight: 100;
                 font-family: 'Lato', sans-serif;
+                font-weight: 800;
             }
 
             .container {
@@ -39,6 +39,15 @@
                 font-weight: 800;
                 color: blue;
             }
+
+            .qrcode {
+                float: right;
+                width: 280px;
+                margin: 40px 90px 45px 20px;
+                padding: 15px;
+                border: 1px solid black;
+                text-align: center;
+            }
         </style>
     </head>
     <body>
@@ -46,12 +55,22 @@
             <div class="content">
                 <div class="title">Google 2FA</div>
 
+                <br><br>
+                <div>secret key</div>
                 <div class="key">{{ $key }}</div>
 
-                <div class="title"><img src="{{ $url }}" alt=""></div>
+                <div class="qrcode">
+                    Google QRCode
+                    <img src="{{ $googleUrl }}" alt="">
+                </div>
+
+                <div class="qrcode">
+                    Inline QRCode
+                    <img src="{{ $inlineUrl }}" alt="">
+                </div>
 
                 <form action="/check2fa" method="post">
-                    <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                    Type your code: <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     <input type="text" name="code">
                     <input type="submit" value="check">
                 </form>

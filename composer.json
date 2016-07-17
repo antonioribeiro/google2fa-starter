@@ -7,7 +7,8 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "pragmarx/google2fa": "^0.7.1"
+        "pragmarx/google2fa": "dev-master",
+        "bacon/bacon-qr-code": "~1.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

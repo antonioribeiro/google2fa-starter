@@ -58,13 +58,19 @@ class Home extends Controller
     {
         $key = $this->getSecretKey();
 
-        $url = Google2FA::getQRCodeGoogleUrl(
+        $googleUrl = Google2FA::getQRCodeGoogleUrl(
             $this->name,
             $this->email,
             $key
         );
 
-        return view('welcome')->with(compact('key', 'url', 'valid'));
+        $inlineUrl = Google2FA::getQRCodeInline(
+            $this->name,
+            $this->email,
+            $key
+        );
+
+        return view('welcome')->with(compact('key', 'googleUrl', 'inlineUrl', 'valid'));
     }
 
     /**

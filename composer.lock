@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2e115ed362c48ec3fc0b71e4c2b0e264",
-    "content-hash": "66c24d5d3a3c6729fc6c9fea57e0d41c",
+    "hash": "dd21cd0957048205bb5977c574ca2453",
+    "content-hash": "7ddc9bba878a94b6bcfcaa0547dd5df7",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -884,32 +884,39 @@
         },
         {
             "name": "pragmarx/google2fa",
-            "version": "v0.7.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/antonioribeiro/google2fa.git",
-                "reference": "908678ba9b26cf8ecd7ddca6bfd86afc5b4874df"
+                "reference": "0e6483c5613d77062834826960a15d7b486bbeda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/antonioribeiro/google2fa/zipball/908678ba9b26cf8ecd7ddca6bfd86afc5b4874df",
-                "reference": "908678ba9b26cf8ecd7ddca6bfd86afc5b4874df",
+                "url": "https://api.github.com/repos/antonioribeiro/google2fa/zipball/0e6483c5613d77062834826960a15d7b486bbeda",
+                "reference": "0e6483c5613d77062834826960a15d7b486bbeda",
                 "shasum": ""
             },
             "require": {
-                "christian-riesen/base32": "~1.0",
+                "christian-riesen/base32": "~1.3",
+                "paragonie/random_compat": "~1.4|~2.0",
                 "php": ">=5.3.7",
-                "simplesoftwareio/simple-qrcode": "1.3.*"
+                "symfony/polyfill-php56": "~1.2"
             },
             "require-dev": {
                 "phpspec/phpspec": "~2.1"
+            },
+            "suggest": {
+                "bacon/bacon-qr-code": "Required to generate inline QR Codes."
             },
             "type": "library",
             "extra": {
                 "component": "package",
                 "frameworks": [
                     "Laravel"
-                ]
+                ],
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
             },
             "autoload": {
                 "psr-4": {
@@ -934,7 +941,7 @@
                 "google2fa",
                 "laravel"
             ],
-            "time": "2015-11-07 13:57:42"
+            "time": "2016-07-17 23:17:18"
         },
         {
             "name": "psr/log",
@@ -1045,57 +1052,6 @@
                 "shell"
             ],
             "time": "2016-03-09 05:03:14"
-        },
-        {
-            "name": "simplesoftwareio/simple-qrcode",
-            "version": "1.3.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/SimpleSoftwareIO/simple-qrcode.git",
-                "reference": "17c5e45c79c40f717d4bc08cf5e568f29ebf9333"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/SimpleSoftwareIO/simple-qrcode/zipball/17c5e45c79c40f717d4bc08cf5e568f29ebf9333",
-                "reference": "17c5e45c79c40f717d4bc08cf5e568f29ebf9333",
-                "shasum": ""
-            },
-            "require": {
-                "bacon/bacon-qr-code": "1.0.*",
-                "ext-gd": "*",
-                "illuminate/support": ">=4.2.0",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "0.9.*",
-                "phpunit/phpunit": "4.7.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "SimpleSoftwareIO\\QrCode\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Simple Software LLC",
-                    "email": "support@simplesoftware.io"
-                }
-            ],
-            "description": "Simple QrCode is a QR code generator made for Laravel.",
-            "homepage": "http://www.simplesoftware.io",
-            "keywords": [
-                "Simple",
-                "generator",
-                "laravel",
-                "qrcode",
-                "wrapper"
-            ],
-            "time": "2016-01-31 02:09:25"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3354,7 +3310,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "pragmarx/google2fa": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

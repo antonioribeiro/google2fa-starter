@@ -69,7 +69,7 @@
                     <img src="{{ $inlineUrl }}" alt="">
                 </div>
 
-                <form action="/check2fa" method="post">
+                <form action="/" method="post">
                     Type your code: <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     <input type="text" name="code">
                     <input type="submit" value="check">

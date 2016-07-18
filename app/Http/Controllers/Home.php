@@ -23,6 +23,32 @@ class Home extends Controller
         return $this->index($isValid);
     }
 
+    /**
+     * @param $key
+     * @return mixed
+     */
+    private function getGoogleUrl($key)
+    {
+        return Google2FA::getQRCodeGoogleUrl(
+            $this->name,
+            $this->email,
+            $key
+        );
+    }
+
+    /**
+     * @param $key
+     * @return mixed
+     */
+    private function getInlineUrl($key)
+    {
+        return Google2FA::getQRCodeInline(
+            $this->name,
+            $this->email,
+            $key
+        );
+    }
+
     private function getSecretKey()
     {
         if (! $key = $this->getStoredKey())
@@ -54,21 +80,13 @@ class Home extends Controller
         return Storage::get($this->fileName);
     }
 
-    public function index($valid = false)
+    public function index()
     {
-        $key = $this->getSecretKey();
+        $valid = $this->validateInput($key = $this->getSecretKey());
 
-        $googleUrl = Google2FA::getQRCodeGoogleUrl(
-            $this->name,
-            $this->email,
-            $key
-        );
+        $googleUrl = $this->getGoogleUrl($key);
 
-        $inlineUrl = Google2FA::getQRCodeInline(
-            $this->name,
-            $this->email,
-            $key
-        );
+        $inlineUrl = $this->getInlineUrl($key);
 
         return view('welcome')->with(compact('key', 'googleUrl', 'inlineUrl', 'valid'));
     }
@@ -84,17 +102,15 @@ class Home extends Controller
     /**
      * @return mixed
      */
-    private function validateInput()
+    private function validateInput($key)
     {
         // Get the code from input
-        $code = request()->get('code');
-
-        // Get our secret key
-        $key = $this->getSecretKey();
+        if (! $code = request()->get('code'))
+        {
+            return false;
+        }
 
         // Verify the code
-        $isValid = Google2FA::verifyKey($key, $code);
-
-        return $isValid;
+        return Google2FA::verifyKey($key, $code);
     }
 }

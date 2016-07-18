@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="Home.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="975">
+              <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -38,17 +38,19 @@
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/vendor/pragmarx/google2fa/phpunit.xml" />
         <option value="$PROJECT_DIR$/vendor/pragmarx/google2fa/tests/spec/Google2FASpec.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/vendor/pragmarx/google2fa/src/Contracts/User2FA.php" />
         <option value="$PROJECT_DIR$/vendor/pragmarx/google2fa/src/Vendor/Laravel/Middleware.php" />
         <option value="$PROJECT_DIR$/vendor/pragmarx/google2fa/src/Google2FA.php" />
-        <option value="$PROJECT_DIR$/vendor/pragmarx/google2fa/readme.md" />
         <option value="$PROJECT_DIR$/vendor/pragmarx/google2fa/changelog.md" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/vendor/pragmarx/google2fa/.travis.yml" />
+        <option value="$PROJECT_DIR$/vendor/pragmarx/google2fa/.styleci.yml" />
+        <option value="$PROJECT_DIR$/vendor/pragmarx/google2fa/readme.md" />
         <option value="$PROJECT_DIR$/vendor/pragmarx/google2fa/composer.json" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Home.php" />
-        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Home.php" />
       </list>
     </option>
   </component>
@@ -199,6 +201,58 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2fa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2fa" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Illuminate" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2fa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2fa" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -284,6 +338,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -361,7 +416,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26881722" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26881722" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -561,29 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding>
-            <marker date="1468797931170" expanded="true" signature="0:1354" ph="{&quot;name&quot;: &quot;laravel/laravel&quot;...}" />
-            <marker date="1468797931170" expanded="true" signature="180:333" ph="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
-            <marker date="1468797931170" expanded="true" signature="354:560" ph="{&quot;fzaninotto/faker&quot;: &quot;~1.4&quot;...}" />
-            <marker date="1468797931170" expanded="true" signature="578:698" ph="{...}" />
-            <marker date="1468797931170" expanded="true" signature="600:634" ph="[...]" />
-            <marker date="1468797931170" expanded="true" signature="653:692" ph="{&quot;App\&quot;: &quot;app/&quot;...}" />
-            <marker date="1468797931170" expanded="true" signature="720:792" ph="{...}" />
-            <marker date="1468797931170" expanded="true" signature="742:786" ph="[...]" />
-            <marker date="1468797931170" expanded="true" signature="809:1293" ph="{...}" />
-            <marker date="1468797931170" expanded="true" signature="848:914" ph="[...]" />
-            <marker date="1468797931170" expanded="true" signature="951:1001" ph="[...]" />
-            <marker date="1468797931170" expanded="true" signature="1031:1145" ph="[...]" />
-            <marker date="1468797931170" expanded="true" signature="1174:1287" ph="[...]" />
-            <marker date="1468797931170" expanded="true" signature="1309:1352" ph="{&quot;preferred-install&quot;: &quot;dist&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
@@ -607,72 +639,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/pragmarx/google2fa/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1468797548311" expanded="true" signature="0:1070" ph="{&quot;name&quot;: &quot;pragmarx/google2fa&quot;...}" />
-            <marker date="1468797548311" expanded="true" signature="275:442" ph="[...]" />
-            <marker date="1468797548311" expanded="true" signature="285:436" ph="{&quot;name&quot;: &quot;Antonio Carlos Ribeiro&quot;...}" />
-            <marker date="1468797548311" expanded="true" signature="459:624" ph="{&quot;php&quot;: &quot;&gt;=5.3.7&quot;...}" />
-            <marker date="1468797548311" expanded="true" signature="645:686" ph="{&quot;phpspec/phpspec&quot;: &quot;~2.1&quot;...}" />
-            <marker date="1468797548311" expanded="true" signature="704:784" ph="{...}" />
-            <marker date="1468797548311" expanded="true" signature="723:778" ph="{&quot;PragmaRX\Google2FA\&quot;: &quot;src/&quot;...}" />
-            <marker date="1468797548311" expanded="true" signature="799:943" ph="{&quot;component&quot;: &quot;package&quot;...}" />
-            <marker date="1468797548311" expanded="true" signature="892:937" ph="{&quot;dev-master&quot;: &quot;1.0-dev&quot;...}" />
-            <marker date="1468797548311" expanded="true" signature="960:1036" ph="{&quot;bacon/bacon-qr-code&quot;: &quot;Required to generate inline QR Codes.&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <marker date="1468797903138" expanded="true" signature="44:67" ph="..." />
-            <marker date="1468797903138" expanded="true" signature="98:1945" ph="{...}" />
-            <marker date="1468797903138" expanded="true" signature="285:424" ph="{...}" />
-            <marker date="1468797903138" expanded="true" signature="461:646" ph="{...}" />
-            <marker date="1468797903138" expanded="true" signature="511:618" ph="{...}" />
-            <marker date="1468797903138" expanded="true" signature="655:682" ph=" @return mixed ..." />
-            <marker date="1468797903138" expanded="true" signature="720:1031" ph="{...}" />
-            <marker date="1468797903138" expanded="true" signature="827:884" ph="{...}" />
-            <marker date="1468797903138" expanded="true" signature="933:978" ph="{...}" />
-            <marker date="1468797903138" expanded="true" signature="1074:1475" ph="{...}" />
-            <marker date="1468797903138" expanded="true" signature="1171:1248" ph="..." />
-            <marker date="1468797903138" expanded="true" signature="1300:1377" ph="..." />
-            <marker date="1468797903138" expanded="true" signature="1484:1509" ph=" @param $key ..." />
-            <marker date="1468797903138" expanded="true" signature="1547:1604" ph="{...}" />
-            <marker date="1468797903138" expanded="true" signature="1613:1640" ph=" @return mixed ..." />
-            <marker date="1468797903138" expanded="true" signature="1679:1943" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/pragmarx/google2fa/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1450">
-            <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="49" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/pragmarx/google2fa/src/Google2FA.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="-10000">
           <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           <folding>
             <marker date="1468797243262" expanded="true" signature="41:1104" ph=" This program is free software: you can redistribute it and/or modify ..." />
@@ -719,29 +688,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+    <entry file="file://$PROJECT_DIR$/vendor/pragmarx/google2fa/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+        <state relative-caret-position="300">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding>
-            <marker date="1468798640527" expanded="true" signature="21:2347" ph="..." />
-            <marker date="1468798640527" expanded="true" signature="32:1231" ph="..." />
-            <marker date="1468798640527" expanded="true" signature="185:1219" ph="..." />
-            <marker date="1468798640527" expanded="true" signature="210:255" ph="{...}" />
-            <marker date="1468798640527" expanded="true" signature="274:488" ph="{...}" />
-            <marker date="1468798640527" expanded="true" signature="513:641" ph="{...}" />
-            <marker date="1468798640527" expanded="true" signature="664:754" ph="{...}" />
-            <marker date="1468798640527" expanded="true" signature="775:823" ph="{...}" />
-            <marker date="1468798640527" expanded="true" signature="842:953" ph="{...}" />
-            <marker date="1468798640527" expanded="true" signature="975:1203" ph="{...}" />
-            <marker date="1468798640527" expanded="true" signature="1242:2339" ph="..." />
-            <marker date="1468798640527" expanded="true" signature="1274:2327" ph="..." />
-            <marker date="1468798640527" expanded="true" signature="1308:2312" ph="..." />
-            <marker date="1468798640527" expanded="true" signature="1512:1625" ph="..." />
-            <marker date="1468798640527" expanded="true" signature="1663:1776" ph="..." />
-            <marker date="1468798640527" expanded="true" signature="1833:2064" ph="..." />
-            <marker date="1468798640527" expanded="true" signature="2128:2159" ph="..." />
-            <marker date="1468798640527" expanded="true" signature="2227:2256" ph="..." />
+            <marker date="1468806198184" expanded="true" signature="10:13" ph="php" />
+            <marker date="1468806198184" expanded="true" signature="15:61" ph="php: &lt;5 items&gt;" />
+            <marker date="1468806198184" expanded="true" signature="25:28" ph="5.4" />
+            <marker date="1468806198184" expanded="true" signature="33:36" ph="5.5" />
+            <marker date="1468806198184" expanded="true" signature="41:44" ph="5.6" />
+            <marker date="1468806198184" expanded="true" signature="49:52" ph="7.0" />
+            <marker date="1468806198184" expanded="true" signature="57:61" ph="hhvm" />
+            <marker date="1468806198184" expanded="true" signature="87:92" ph="false" />
+            <marker date="1468806198184" expanded="true" signature="94:143" ph="cache: &lt;1 key&gt;" />
+            <marker date="1468806198184" expanded="true" signature="103:143" ph="directorie...: &lt;1 item&gt;" />
+            <marker date="1468806198184" expanded="true" signature="122:143" ph="$HOME/.com..." />
+            <marker date="1468806198184" expanded="true" signature="145:218" ph="install: &lt;1 item&gt;" />
+            <marker date="1468806198184" expanded="true" signature="158:218" ph="travis_ret..." />
+            <marker date="1468806198184" expanded="true" signature="228:250" ph="vendor/bin..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/pragmarx/google2fa/.styleci.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <marker date="1468807294694" expanded="true" signature="8:19" ph="recommende..." />
+            <marker date="1468807294694" expanded="true" signature="28:33" ph="false" />
+            <marker date="1468807294694" expanded="true" signature="44:48" ph="true" />
+            <marker date="1468807294694" expanded="true" signature="50:116" ph="enabled: &lt;3 items&gt;" />
+            <marker date="1468807294694" expanded="true" signature="63:80" ph="long_array..." />
+            <marker date="1468807294694" expanded="true" signature="85:91" ph="strict" />
+            <marker date="1468807294694" expanded="true" signature="96:116" ph="unalign_do..." />
+            <marker date="1468807294694" expanded="true" signature="118:173" ph="disabled: &lt;2 items&gt;" />
+            <marker date="1468807294694" expanded="true" signature="132:150" ph="align_doub..." />
+            <marker date="1468807294694" expanded="true" signature="155:173" ph="short_arra..." />
+            <marker date="1468807294694" expanded="true" signature="175:280" ph="finder: &lt;4 keys&gt;" />
+            <marker date="1468807294694" expanded="true" signature="185:207" ph="exclude: &lt;1 item&gt;" />
+            <marker date="1468807294694" expanded="true" signature="200:207" ph="tests" />
+            <marker date="1468807294694" expanded="true" signature="210:229" ph="name: &lt;1 item&gt;" />
+            <marker date="1468807294694" expanded="true" signature="222:229" ph="*.php" />
+            <marker date="1468807294694" expanded="true" signature="232:259" ph="not-name: &lt;1 item&gt;" />
+            <marker date="1468807294694" expanded="true" signature="248:259" ph="*Stub.php" />
+            <marker date="1468807294694" expanded="true" signature="262:280" ph="depth: &lt;1 item&gt;" />
+            <marker date="1468807294694" expanded="true" signature="275:280" ph="&lt; 3" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/pragmarx/google2fa/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <marker date="1468797931170" expanded="true" signature="0:1354" ph="{&quot;name&quot;: &quot;laravel/laravel&quot;...}" />
+            <marker date="1468797931170" expanded="true" signature="180:333" ph="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
+            <marker date="1468797931170" expanded="true" signature="354:560" ph="{&quot;fzaninotto/faker&quot;: &quot;~1.4&quot;...}" />
+            <marker date="1468797931170" expanded="true" signature="578:698" ph="{...}" />
+            <marker date="1468797931170" expanded="true" signature="600:634" ph="[...]" />
+            <marker date="1468797931170" expanded="true" signature="653:692" ph="{&quot;App\&quot;: &quot;app/&quot;...}" />
+            <marker date="1468797931170" expanded="true" signature="720:792" ph="{...}" />
+            <marker date="1468797931170" expanded="true" signature="742:786" ph="[...]" />
+            <marker date="1468797931170" expanded="true" signature="809:1293" ph="{...}" />
+            <marker date="1468797931170" expanded="true" signature="848:914" ph="[...]" />
+            <marker date="1468797931170" expanded="true" signature="951:1001" ph="[...]" />
+            <marker date="1468797931170" expanded="true" signature="1031:1145" ph="[...]" />
+            <marker date="1468797931170" expanded="true" signature="1174:1287" ph="[...]" />
+            <marker date="1468797931170" expanded="true" signature="1309:1352" ph="{&quot;preferred-install&quot;: &quot;dist&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/pragmarx/google2fa/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-789">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <marker date="1468807908153" expanded="true" signature="0:1068" ph="{&quot;name&quot;: &quot;pragmarx/google2fa&quot;...}" />
+            <marker date="1468807908153" expanded="true" signature="275:442" ph="[...]" />
+            <marker date="1468807908153" expanded="true" signature="285:436" ph="{&quot;name&quot;: &quot;Antonio Carlos Ribeiro&quot;...}" />
+            <marker date="1468807908153" expanded="true" signature="459:622" ph="{&quot;php&quot;: &quot;&gt;=5.4&quot;...}" />
+            <marker date="1468807908153" expanded="true" signature="643:684" ph="{&quot;phpspec/phpspec&quot;: &quot;~2.1&quot;...}" />
+            <marker date="1468807908153" expanded="true" signature="702:782" ph="{...}" />
+            <marker date="1468807908153" expanded="true" signature="721:776" ph="{&quot;PragmaRX\Google2FA\&quot;: &quot;src/&quot;...}" />
+            <marker date="1468807908153" expanded="true" signature="797:941" ph="{&quot;component&quot;: &quot;package&quot;...}" />
+            <marker date="1468807908153" expanded="true" signature="890:935" ph="{&quot;dev-master&quot;: &quot;1.0-dev&quot;...}" />
+            <marker date="1468807908153" expanded="true" signature="958:1034" ph="{&quot;bacon/bacon-qr-code&quot;: &quot;Required to generate inline QR Codes.&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -749,7 +795,50 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="74" column="55" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
+          <folding>
+            <marker date="1468808546911" expanded="true" signature="21:2339" ph="..." />
+            <marker date="1468808546911" expanded="true" signature="32:1231" ph="..." />
+            <marker date="1468808546911" expanded="true" signature="185:1219" ph="..." />
+            <marker date="1468808546911" expanded="true" signature="210:255" ph="{...}" />
+            <marker date="1468808546911" expanded="true" signature="274:488" ph="{...}" />
+            <marker date="1468808546911" expanded="true" signature="513:641" ph="{...}" />
+            <marker date="1468808546911" expanded="true" signature="664:754" ph="{...}" />
+            <marker date="1468808546911" expanded="true" signature="775:823" ph="{...}" />
+            <marker date="1468808546911" expanded="true" signature="842:953" ph="{...}" />
+            <marker date="1468808546911" expanded="true" signature="975:1203" ph="{...}" />
+            <marker date="1468808546911" expanded="true" signature="1242:2331" ph="..." />
+            <marker date="1468808546911" expanded="true" signature="1274:2319" ph="..." />
+            <marker date="1468808546911" expanded="true" signature="1308:2304" ph="..." />
+            <marker date="1468808546911" expanded="true" signature="1512:1625" ph="..." />
+            <marker date="1468808546911" expanded="true" signature="1663:1776" ph="..." />
+            <marker date="1468808546911" expanded="true" signature="1825:2056" ph="..." />
+            <marker date="1468808546911" expanded="true" signature="2120:2151" ph="..." />
+            <marker date="1468808546911" expanded="true" signature="2219:2248" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding />
         </state>
       </provider>

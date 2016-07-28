@@ -15,6 +15,10 @@ class Home extends Controller
 
     private $secretKey;
 
+    private $keySize = 25;
+
+    private $keyPrefix = '';
+
     public function check2fa()
     {
         $isValid = $this->validateInput();
@@ -53,7 +57,7 @@ class Home extends Controller
     {
         if (! $key = $this->getStoredKey())
         {
-            $key = Google2FA::generateSecretKey();
+            $key = Google2FA::generateSecretKey($this->keySize, $this->keyPrefix);
 
             $this->storeKey($key);
         }
